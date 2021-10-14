@@ -1,0 +1,72 @@
+-------------------KCCA Congestion Fee Tickets--------------------------
+                  Car plate          :KCA 390S
+                   Number of Hours    :5
+                  Congestion Fee     :0
+     Tip: travelling with a friend saves money and reduces traffic
+
+-------------------KCCA Congestion Fee Tickets--------------------------
+                  Car plate          :KBA 360A
+                   Number of Hours    :7
+                  Congestion Fee     :750
+     Tip: travelling with a friend saves money and reduces traffic
+
+-------------------KCCA Congestion Fee Tickets--------------------------
+                  Car plate          :KCC
+                   Number of Hours   :17
+                  Congestion Fee     :2250
+     Tip: travelling with a friend saves money and reduces traffic
+
+-------------------KCCA Congestion Fee Tickets--------------------------
+                  Car plate          :1
+                   Number of Hours   :1
+                  Congestion Fee     :0
+     Tip: travelling with a friend saves money and reduces traffic
+
+-------------------KCCA Congestion Fee Tickets--------------------------
+                  Car plate          :1
+                   Number of Hours   :1
+                  Congestion Fee     :150
+     Tip: travelling with a friend saves money and reduces traffic
+
+-------------------KCCA Congestion Fee Tickets--------------------------
+                  Car plate          :6
+                   Number of Hours   :7
+                  Congestion Fee     :1650
+     Tip: travelling with a friend saves money and reduces traffic
+
+-------------------KCCA Congestion Fee Tickets--------------------------
+                  Car plate          :u
+                   Number of Hours   :2
+                  Congestion Fee     :300
+     Tip: travelling with a friend saves money and reduces traffic
+
+-------------------KCCA Congestion Fee Tickets--------------------------
+                  Car plate          :6
+                   Number of Hours   :4
+                  Congestion Fee     :750
+     Tip: travelling with a friend saves money and reduces traffic
+
+-------------------KCCA Congestion Fee Tickets--------------------------
+                  Car plate          :KCD 875B
+                   Number of Hours   :19
+                  Congestion Fee     :1050
+     Tip: travelling with a friend saves money and reduces traffic
+
+-------------------KCCA Congestion Fee Tickets--------------------------
+                  Car plate          :KBT 889Y
+                   Number of Hours   :7
+                  Congestion Fee     :750
+     Tip: travelling with a friend saves money and reduces traffic
+
+-------------------KCCA Congestion Fee Tickets--------------------------
+                  Car plate          :hsdfsd
+                   Number of Hours   :12
+                  Congestion Fee     :3150
+     Tip: travelling with a friend saves money and reduces traffic
+
+-------------------KCCA Congestion Fee Tickets--------------------------
+                  Car plate          :SDFSDF
+                   Number of Hours   :5
+                  Congestion Fee     :1350
+     Tip: travelling with a friend saves money and reduces traffic
+

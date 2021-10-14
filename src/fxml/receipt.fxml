@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="276.0" prefWidth="344.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.MainWindowController">
+   <children>
+      <Label layoutX="15.0" layoutY="24.0" prefHeight="20.0" prefWidth="306.0" text="-----------KCCA Congestion Fee Ticket-----------">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="79.0" text="Car Plate:" />
+      <Label layoutX="80.0" layoutY="118.0" text="Number of Hours:" />
+      <Label layoutX="78.0" layoutY="164.0" text="Congestion Fee:" AnchorPane.bottomAnchor="95.0" AnchorPane.topAnchor="164.0" />
+      <Label layoutX="27.0" layoutY="244.0" prefHeight="17.0" prefWidth="305.0" text="Travelling with  a friend saves money &amp; reduces traffic" />
+      <Label fx:id="showCarPlate" layoutX="132.0" layoutY="66.0" prefHeight="23.0" prefWidth="108.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="showHours" layoutX="186.0" layoutY="109.0" prefHeight="23.0" prefWidth="108.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="showCongestion" layoutX="168.0" layoutY="165.0" prefHeight="23.0" prefWidth="108.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

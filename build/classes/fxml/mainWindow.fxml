@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.MainWindowController">
+    <stylesheets>
+        <URL value="@mainwindow.css" />
+    </stylesheets>
+   <children>
+      <TabPane layoutX="1.0" prefHeight="600.0" prefWidth="800.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Generate Receipts">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="477.0" prefWidth="698.0">
+                     <children>
+                        <TextField fx:id="carReg" layoutX="28.0" layoutY="108.0" prefHeight="26.0" prefWidth="305.0" promptText="Car/ Motorbike Registration No:">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <Button fx:id="btnGenerate" layoutX="30.0" layoutY="415.0" mnemonicParsing="false" onMouseClicked="#HandleEvents" prefHeight="43.0" prefWidth="315.0" styleClass="button2" stylesheets="@../../../trafficControl/src/styling/fullpackstyling.css" text="Generate Receipt" />
+                        <TextField fx:id="hours" layoutX="29.0" layoutY="240.0" prefHeight="31.0" prefWidth="305.0" promptText="Hour Of The Day( 17 for 17HRS)" />
+                        <Label layoutX="6.0" layoutY="14.0" prefHeight="43.0" prefWidth="358.0" text="Welcome to KCG Congestion Fee Entry Point" textFill="#0703bc" textOverrun="WORD_ELLIPSIS" underline="true">
+                           <font>
+                              <Font name="Bell MT" size="18.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="duration" layoutX="29.0" layoutY="307.0" prefHeight="31.0" prefWidth="305.0" promptText="Duration to stay" />
+                        <Label fx:id="errorDisplay" layoutX="23.0" layoutY="51.0" prefHeight="32.0" prefWidth="310.0">
+                           <font>
+                              <Font name="Berlin Sans FB" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="418.0" layoutY="113.0" prefHeight="20.0" prefWidth="306.0" text="-----------KCCA Congestion Fee Ticket-----------">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="488.0" layoutY="174.0" text="Car Plate:" />
+                        <Label layoutX="488.0" layoutY="217.0" text="Number of Hours:" />
+                        <Label layoutX="488.0" layoutY="257.0" text="Congestion Fee:" />
+                        <Label layoutX="431.0" layoutY="304.0" prefHeight="18.0" prefWidth="342.0" text="Travelling with  a friend saves money &amp; reduces traffic" />
+                        <Label fx:id="showCarPlate" layoutX="603.0" layoutY="169.0" prefHeight="32.0" prefWidth="108.0" textFill="#04585e">
+                           <font>
+                              <Font name="Bell MT Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="showHours" layoutX="603.0" layoutY="210.0" prefHeight="32.0" prefWidth="109.0" textFill="#04585e">
+                           <font>
+                              <Font name="Bell MT Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="showCongestion" layoutX="604.0" layoutY="250.0" prefHeight="31.0" prefWidth="102.0">
+                           <font>
+                              <Font name="Bell MT Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="printSuccess" layoutX="439.0" layoutY="81.0" prefHeight="30.0" prefWidth="274.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="29.0" layoutY="87.0" prefHeight="28.0" prefWidth="114.0" text="Car plate number:" />
+                        <Label layoutX="30.0" layoutY="146.0" prefHeight="28.0" prefWidth="112.0" text="Day of the week:" />
+                        <Label layoutX="30.0" layoutY="209.0" prefHeight="28.0" prefWidth="112.0" text="Hour of the day:" />
+                        <Label layoutX="28.0" layoutY="283.0" prefHeight="28.0" prefWidth="258.0" text="Number of Hours to stay in the city center:" />
+                        <Label layoutX="30.0" layoutY="347.0" prefHeight="28.0" prefWidth="165.0" text="Is PWD? (1 - Yes or 0 - No): " />
+                        <ComboBox fx:id="weekDays" layoutX="26.0" layoutY="171.0" prefHeight="35.0" prefWidth="307.0" />
+                        <ComboBox fx:id="disabled" layoutX="28.0" layoutY="375.0" prefHeight="35.0" prefWidth="307.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Show Receipts ">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="382.0" prefWidth="660.0">
+                     <children>
+                        <TextArea fx:id="textReceiptShow" layoutX="14.0" layoutY="14.0" prefHeight="521.0" prefWidth="770.0" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+         <stylesheets>
+            <URL value="@../styling/fullpackstyling.css" />
+            <URL value="@mainwindow.css" />
+         </stylesheets>
+      </TabPane>
+   </children>
+</AnchorPane>
